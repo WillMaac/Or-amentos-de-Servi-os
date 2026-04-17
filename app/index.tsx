@@ -1,4 +1,7 @@
+import { ContainerCard } from "@/src/components/ContainerCard";
 import { Header } from "@/src/components/Header";
+import { Input } from "@/src/components/Search";
+import { CardTask } from "@/src/components/TaskCard";
 import { Text, View } from "react-native";
 
 export default function Index() {
@@ -10,6 +13,8 @@ export default function Index() {
       }}
     >
       <Header/>
+      <Input/>
+      <ContainerCard/>
     </View>
   );
 }

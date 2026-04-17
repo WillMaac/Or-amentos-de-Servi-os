@@ -12,7 +12,7 @@ export function Button({text, icon}: BtnProps) {
     <TouchableOpacity 
     style={styles.button}>
       <MaterialIcons name={icon} size={30} color="#FAFAFA" />
-      <Text>{text}</Text>
+      <Text style={styles.text}>{text}</Text>
     </TouchableOpacity>
   );
 }
